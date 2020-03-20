@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4,80px);
   grid-template-rows: repeat(4,50px);
-  background-color : pink;
+  background-color : purple;
  width : 300px;
  height : 250px;
  grid-gap: 10px;
