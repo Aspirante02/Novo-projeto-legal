@@ -1,0 +1,51 @@
+body {
+    background-color : #000000;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4,80px);
+  grid-template-rows: repeat(4,50px);
+  background-color : pink;
+ width : 300px;
+ height : 250px;
+ grid-gap: 10px;
+ padding-left: 30px;
+ padding-right: 80px;
+ padding-top: 10px;
+}
+
+.container button {
+    font-size: 15pt;
+    background-color : gray;
+    border : none;
+}
+
+.container button:nth-child(16){
+    background-color : #00BFFF;
+}
+
+.corpo {
+    width : 410px;
+    padding : 0px;
+    height: 50px;
+    margin : auto;
+    margin-top : 50px;
+    background-color: purple;
+}
+
+input[type="text"] {
+    width: 390px;
+    border: none;
+    background-color: blue;
+    text-align: right;
+    font : 35pt normal Arial;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.visor {
+    background-color: blue;
+    padding : 10px;
+}
+
+

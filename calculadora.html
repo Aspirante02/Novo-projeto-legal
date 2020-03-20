@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="calculadora.css">
+        <script src="jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div class="corpo">
+        <div class="visor"><input type="text" placeholder="0" class="tela"></div>
+        
+        <div class="container">
+            <button id="btnCE" onclick="botao('CE')">CE</button><button id="btn/" onclick="botao('/')">/</button><button id="btn*" onclick="botao('*')">*</button><button id="btn-" onclick="botao('-')">-</button>
+            <button id="btn7" onclick="botao(7)">7</button><button id="btn8" onclick="botao('8')">8</button><button id="btn9" onclick="botao('9')">9</button><button id="btn+" onclick="botao('+')">+</button>
+            <button id="btn4" onclick="botao('4')">4</button><button id="btn5" onclick="botao('5')">5</button><button id="btn6" onclick="botao('6')">6</button><button id="btn." onclick="botao('.')">.</button>
+            <button id="btn1" onclick="botao('1')">1</button><button id="btn2" onclick="botao('2')">2</button><button id="btn3" onclick="botao('3')">3</button><button id="btn=" onclick="botao('=')">=</button>
+        </div>
+        </div>
+        
+         <script src="calculadora.js"></script>
+    </body>
+</html>
